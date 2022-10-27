@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Formularz  </title>
+	</head>
+<body bgcolor="71797E">
+	<center><h1>ANKIETA DLA PRACOWNIKÓW HUTY KATOWICE</h1></center>
+	<form enctype="text/plain" action="mailto:iglogi@wp.pl" subject="formularz_dane" method="Post">
+		<TABLE>
+			<TR height="100">
+				<TD width="500">
+				<b>1. Imię i nazwisko pracownika</b> &nbsp &nbsp &nbsp <input name="imnaz" size="22">
+				<br><br>
+				<b>2. Numer służbowy</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="Numsłuż" size="22">
+				<br><br>
+				<b>3. Adres E-mail</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="mail" size="22">
+				<br><br>
+				</TD>
+			</TR>
+			
+			
+			<TR height="200">
+				<TD width="300" >
+				<font size="5" color="red"><b>4. Najlepszy oddział w hucie?</b></font><br>
+				<select>
+				<option value="<------->"><-------></option>
+				<option value="walcownia">Walcownia</option>
+				<option value="wielki piec">Wielki Piec</option>
+				<option value="cynkownia">Cynkownia</option>
+				<option value="stalownia">Stalownia</option>
+				<option value="odlewnia">Odlwenia</option>
+				</select> 
+				</TD>
+			</TR>
+			
+			<TR height="200">
+				<TD width="500"><font size="5">5. <i>Czy rozmawiałeś kiedyś z dyrektorem huty?</i></font>
+				<br><br>
+				<input type="checkbox" name="TAK" value="t"> TAK &nbsp <input type="checkbox" name="NIE" value="n"> NIE &nbsp <input type="checkbox" name="NIE INTERESUJE MNIE ON" value="inna"> NIE INTERESUJE MNIE ON
+				</TD>
+			</TR>
+			
+			<TR height="200">
+				<TD><nobr><font size="5" color="">6. Kiedy ostatnio korzystałeś ze stołówki zakładowej? </font> </nobr>
+				<br><br>
+				<input type="radio" name="pyt6" value="Dzisiaj"> Dzisiaj
+				<br><br>
+				<input type="radio" name="pyt6" value="W tym tygodniu"> W tym tygodniu
+				<br><br>
+				<input type="radio" name="pyt6" value="W tym miesiącu"> W tym miesiącu
+				<br><br>
+				<input type="radio" name="pyt6" value="więcej jak miesiąc"> Więcej jak miesiąc temu
+				<br><br>
+				<input type="radio" name="pyt6" value="inaczej"> Więcej jak rok temu
+				<br><br>
+			</TR>
+			
+			<TR height="200">
+				<TD width="500"><font size="5">5. <i>Jak oceniasz warunki swojej pracy?</i></font>
+				<br><br>
+				<input type="checkbox" name="dobrze" value="f"> Dobrze
+				<br><br>
+				<input type="checkbox" name="źle" value="d"> Źle
+				<br><br>
+				<input type="checkbox" name="tragicznie" value="j"> Tragicznie
+				<br><br>
+				<br><br>
+				<br><br>
+				
+			</TD>
+			</TR>
+			
+			<TR height="100">
+				<TD> <input type="submit" value"=Wyślij formularz" style="height:80px; width:150px"> </TD>
+				<TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px"> </TD>
+					
+				<!--<TD><button class="social-media-btn" stytle="height:80px; width:150px"><i class="fab fa-facebook-f"></i></button></TD>
+				<TD><button onclick="alert('A kuku')" style="height:80px;width:300px">Przycisk niespodzianka</button></TD>-->
+			</TR>
+		</TABLE>
+		<A HREF="index.html"> wróć </A>
+	</form>
+</body>
+</html>
